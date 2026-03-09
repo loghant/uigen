@@ -3,7 +3,13 @@
     "allow": [
       "Bash(xargs cat)",
       "Bash(npx vitest run src/components/chat/__tests__/ToolInvocationDisplay.test.tsx src/components/chat/__tests__/MessageList.test.tsx)",
-      "Bash(npx vitest run)"
+      "Bash(npx vitest run)",
+      "Bash(npx vitest run src/lib/__tests__/auth.test.ts)",
+      "Bash(npm audit)",
+      "Bash(npm audit fix)",
+      "mcp__playwright__*",
+      "mcp__github__create_repository",
+      "Bash(cd \"/Users/loghan/Projects/Anthropic Learning/uigen\" && gh repo create uigen --public --description \"AI-powered React component generator\" --source . --remote origin 2>&1)"
     ]
   }
 }

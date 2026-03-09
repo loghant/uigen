@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm ls next)",
+      "Bash(npm install next@latest)",
+      "Bash(npm install ai@latest)",
+      "Bash(npm install \"ai@>=4.3.16 <5.0.52\")",
+      "Bash(npx vitest run src/hooks/__tests__/use-auth.test.ts)",
+      "mcp__playwrite__browser_navigate",
+      "Bash(npm run dev)",
+      "Bash(kill 10892)",
+      "Bash(rm -f \"/Users/loghan/Projects/Anthropic Learning/uigen/.next/dev/lock\")",
+      "mcp__playwrite__browser_install",
+      "mcp__playwrite__browser_fill_form",
+      "mcp__playwrite__browser_snapshot",
+      "mcp__playwrite__browser_click",
+      "mcp__playwrite__browser_wait_for"
+    ]
+  }
+}
